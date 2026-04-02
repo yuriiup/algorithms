@@ -1,9 +1,9 @@
 class Solution {
 public:
-  void merge(vector<int> &nums1, int m, vector<int> &nums2, int n);
+  void merge(std::vector<int> &nums1, int m, std::vector<int> &nums2, int n);
 };
 
-void Solution::merge(vector<int> &nums1, int m, vector<int> &nums2, int n) {
+void Solution::merge(std::vector<int> &nums1, int m, std::vector<int> &nums2, int n) {
   int p1 = m - 1;
   int p2 = n - 1;
   int p3 = m + n - 1;
