@@ -1,11 +1,11 @@
 #include <vector>
 
 class Solution {
-public:
-  int removeElement(std::vector<int> &nums, int val);
+ public:
+  int removeElement(std::vector<int>& nums, int val);
 };
 
-int Solution::removeElement(std::vector<int> &nums, int val) {
+int Solution::removeElement(std::vector<int>& nums, int val) {
   if (nums.empty())
     return 0;
   int start = 0;

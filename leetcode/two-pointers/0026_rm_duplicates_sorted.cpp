@@ -1,11 +1,11 @@
 #include <vector>
 
 class Solution {
-public:
-  int removeDuplicates(std::vector<int> &nums);
+ public:
+  int removeDuplicates(std::vector<int>& nums);
 };
 
-int Solution::removeDuplicates(std::vector<int> &nums) {
+int Solution::removeDuplicates(std::vector<int>& nums) {
   if (nums.empty())
     return 0;
   int k = 1;

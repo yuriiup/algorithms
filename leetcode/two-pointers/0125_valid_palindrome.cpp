@@ -1,7 +1,7 @@
 #include <string>
 
 class Solution {
-public:
+ public:
   bool isPalindrome(std::string s);
 };
 

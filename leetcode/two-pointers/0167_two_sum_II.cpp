@@ -9,7 +9,7 @@ std::vector<int> Solution::twoSum(std::vector<int>& numbers, int target) {
   int start = 0;
   int end = numbers.size() - 1;
 
-  long number;
+  int number;
   while (start < end) {
     number = numbers[start] + numbers[end];
     if (number > target) {
